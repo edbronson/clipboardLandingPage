@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    font-size: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.cabecalho {
+    position: relative;
+}
+
+.background__cabecalho{
+    width: 100%;
+    height: 100%; 
+}
+
+.logo__cabecalho {
+    position: absolute;
+    top: 150px;
+    left: 900px;
+}
+
+.titulo__cabecalho {
+    position: absolute;
+    top: 320px;
+    left: 635px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 2.967rem;
+}
+
+.subtitulo__cabecalho {
+    position: absolute;
+    top: 400px;
+    left: 620px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 1.345rem;
+    text-align: center;
+    color: #afb3b6;
+    
+}
+
+.btn__cabecalho {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.cabecalho__btn-1 {
+    margin: 10px 10px 30px 35px;
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    color: black;
+}
+
+.cabecalho__btn-2 {
+    margin: 10px 0 30px 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+}
