@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Clipboard landing page</title>
@@ -14,82 +12,159 @@
   
 </head>
 <body>
-
+<!-- aqui começa o cabeçalho do site -->
   <header>
-    <section class="cabecalho">
-      <img class="background__cabecalho" src="./images/bg-header-desktop.png" alt="textura background">
-      <img class="logo__cabecalho" src="./images/logo.svg" alt="logomarca cabeçalho">
-      <h1 class="titulo__cabecalho">A history of everything you copy</h1>
-      <p class="subtitulo__cabecalho" >Clipboard allows you to track and organize everything you 
-        copy. Instantly <br> access your clipboard on all your devices.</p>
-      <div class="btn">
-        <button type="button" class="btn btn-primary">Download for iOS</button>
-        <button type="button" class="btn btn-success">Download for Mac</button>
-      </div>
-  </section>
+    <img class="logo__cabecalho" src="./images/logo.svg" alt="logomarca cabeçalho">
+    <div class="cabecalho">        
+        <h2 class="titulo__cabecalho">A history of everything you copy</h2>
+        <span class="subtitulo__cabecalho">Clipboard allows you to track and organize everything you 
+          copy. Instantly <br> access your clipboard on all your devices.</span>
+        <div class="btn">
+          <button class="btn btn-primary">Download for iOS</button>
+          <button class="btn btn-success">Download for Mac</button>
+        </div>
+    </div>
   </header>
 
+  <main>
+<!-- aqui começa a primeira sessão do site -->
+    <section class="primeira__sessao">
+      <h2>Keep track of your snippets</h2>
+      <span>
+        Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+      </span>
+    </section>
+<!-- aqui começa a segunda sessão do site -->
+    <section class="segunda-sessão">
+      <img src="./images/image-computer.png" alt=" imagem computador segunda sessão">
+      <div class="texto___lateral">
+        <h3>Quick Search</h3>
+        <span>
+          Easily search your snippets by content, category, web address, application, and more.
+        </span>
+      </div>
+      <div>
+        <h3>iCloud Sync</h3>
+        <span>
+          Instantly saves and syncs snippets across all your devices.
+        </span>
+      </div>
+      <div>
+        <h3>Complete History</h3>
+        <span>
+          Retrieve any snippets from the first moment you started using the app.
+        </span>
+      </div>
+    </section>
+<!-- aqui começa a terceira sessão do site -->
+    <section class="terceira-sessão">
+      <div>
+        <h3>Access Clipboard anywhere</h3>
+        <span>
+          Whether you’re on the go, or at your computer, you can access all your Clipboard 
+          snippets in a few simple clicks.
+        </span>
+      </div>
+      <img src="./images/image-devices.png" alt="imagem computador da terceira sessão">
+      <div>
+        <h3>Superchange your workflow</h3>
+        <span>
+          We’ve got the tools to boost your productivity.
+        </span>
+      </div>
+    </section>
+    <!-- aqui começa a quarta sessão do site -->
+    <section class="quarta-sessão">
+      <div class="funcoes__links">
+        <div>
+          <img src="./images/icon-blacklist.svg" alt="ícone de lista">
+          <h3>
+            Create blacklists
+          </h3>
+          <span>
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+          </span>
+        </div>
+
+        <div>
+          <img src="./images/icon-text.svg" alt="ícone de texto">
+          <h3>
+            Plain text snippets
+          </h3>
+          <span>
+            Remove unwanted formatting from copied text for a consistent look.
+          </span>
+        </div>
+
+        <div>
+          <img src="./images/icon-preview.svg" alt="ícone de visualização">
+          <h3>
+            Sneak preview
+          </h3>
+          <span>
+            Quick preview of all snippets on your Clipboard for easy access.
+          </span>
+        </div>
+      </div>
+
+      <div class="logomarcas">
+        <img src="./images/logo-google.png" alt="">
+        <img src="./images/logo-ibm.png" alt="">
+        <img src="./images/logo-microsoft.png" alt="">
+        <img src="./images/logo-hp.png" alt="">
+        <img src="./images/logo-vector-graphics.png" alt="">
+      </div>
+
+    </section>
+
+        <!-- aqui começa a quinta sessão do site -->
+      <section class="quinta_sessão">
+        <h3>
+          Clipboard for iOS and Mac OS
+        </h3>
+        <span>
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+          and you’re ready to start adding to your clipboard.
+        </span>
+
+        <div class="btn">
+          <button class="btn btn-primary">Download for iOS</button>
+          <button class="btn btn-success">Download for Mac</button>
+        </div>
+      </section>
+  </main>
   
+        <!-- aqui começa o rodapé  do site -->
+      <footer>
+        <div class="rodape">
+          <img class="logo__rodape" src="./images/logo.svg" alt="Logomarca Rodape">
+        </div>
+        <ul class="links">
+          <li><a href="">FAQs</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Press Kit</a></li>
+          <li><a href="">Install Guide</a></li>
+        </ul>
+          
+        <div class="icones__sociais">
+          <a href="" ><img src="./images/icon-facebook.svg" alt=""></a>
+          <a href="" ><img src="./images/icon-twitter.svg" alt=""></a>
+          <a href="" ><img src="./images/icon-instagram.svg" alt=""></a>
+        </div>
+      </footer>
 
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+    
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  
+  
+  
+  
+  
+  
+  
+  
 </body>
 </html>
