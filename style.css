@@ -60,3 +60,73 @@ header {
     background-color: #8898fa;
     box-shadow: 2px 2px 8px hsl(233, 100%, 69%), 2px 2px 2px hsl(233, 100%, 69%);
 }
+
+.primeira__sessao {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.primeira__sessao h2 {
+    padding: 15px 0;
+}
+
+.segunda-sessão {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 0;
+}
+
+.primeira__sessao img {
+    height: 100%;
+    width: 80%;
+}
+
+.segunda-sessão .texto___lateral div {
+    margin-top: 40px;
+    width: 65%;
+}
+
+.terceira-sessão {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.terceira-sessão img {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.terceira-sessão div:first-child {
+    padding: 70px 0;
+    width: 65%;
+    margin: auto;
+}
+
+.quarta-sessão .funcoes__links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.quarta-sessão .funcoes__links div {
+  width: 26%;
+  margin: 0 30px;
+}
+
+.quarta-sessão .funcoes__links div img {
+  margin: 10px 0 20px 0;
+}
+
+.quarta-sessão .logomarcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 50px 30px;
+}
+
