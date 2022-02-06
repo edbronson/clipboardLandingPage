@@ -22,7 +22,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./images/bg-header-desktop.png);
+    background: url("./images/bg-header-desktop.png");
     background-size: cover;
 }
 
@@ -77,7 +77,7 @@ header {
     margin: 50px 0;
 }
 
-.primeira__sessao img {
+.segunda__sessao img {
     height: 100%;
     width: 80%;
 }
@@ -130,3 +130,127 @@ header {
     margin: 50px 30px;
 }
 
+.quinta_sessão {
+    text-align: center;
+    width: 46%;
+    margin: auto;
+}
+
+footer .rodape{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    background-color: #f5f6f8;
+    padding: 30px 30px;
+}
+
+
+.rodape .logo__rodape {
+    width: 50px;
+    height: 50px;
+    margin: 0 70px;
+    
+}
+
+.rodape ul {
+    list-style: none;
+    max-width: 400px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+a {
+    color: hsl(171, 66%, 44%);
+}
+
+.icones__sociais{
+    padding: 0 20px 0 0;
+    transition: color 2s ease-in-out;
+}
+
+.icones__sociais:hover{
+    color: #5dccbb;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+@media (max-width: 765px){
+    header {
+        background: url("./images/bg-header-mobile.png");
+        background-size: cover;
+        
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .primeira__sessao {
+        width: 80%;
+    }
+
+    .segunda-sessão {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .segunda-sessão .texto___lateral div {
+        width: 76%;
+        margin: 60px 12% auto;
+        text-align: center;
+    }
+
+    .terceira-sessão div:first-child {
+        width: 75%;
+     
+    }
+
+    .quarta-sessão .funcoes__links {
+        display: grid;
+    }
+
+    .quarta-sessão .funcoes__links div {
+        width: 85%;
+    }
+
+    .quarta-sessão .logomarcas {
+        display: grid;
+        grid-gap: 4em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quinta_sessão {
+        width: 84%;
+    }
+
+    .btn button {
+        margin: 10px 0;
+    }
+
+    footer .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    ul li {
+        display: grid;
+        margin: 20px 0;
+    }
+
+    .icones__sociais {
+        margin: 10px;
+    }
+}
